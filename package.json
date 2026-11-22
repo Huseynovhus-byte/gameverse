@@ -1,0 +1,9 @@
+{
+  "name": "gameverse-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Serves Gameverse and sends password reset codes through Gmail",
+  "scripts": { "start": "node --env-file=.env server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "nodemailer": "^6.9.14" }
+}
